@@ -2,7 +2,6 @@
   display: inline-block;
 
   box-sizing: border-box;
-  width: 148px;
   height: 35px;
 
   cursor: pointer;
@@ -32,4 +31,20 @@
 .ghost:hover {
   color: var(--white);
   background-color: var(--primary);
+}
+
+.arrow {
+  display: inline-block;
+
+  margin-left: 10px;
+}
+
+.primary .arrow,
+.ghost:hover .arrow {
+  fill: var(--white);
+}
+
+.down {
+  transition: rotate 0.2s;
+  transform: rotate(90deg);
 }

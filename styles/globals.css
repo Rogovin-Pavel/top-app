@@ -20,6 +20,7 @@ a {
 }
 
 :root {
+  --gray: #b3c0d9;
   --red: #fc836d;
   --green: #1dc37e;
   --black: #3b434e;
@@ -27,6 +28,6 @@ a {
   --primary: #7653fc;
   --primary-hover: #6344df;
   --gray-light: #ebebeb;
-  --green-light: ##c8f8e4;
+  --green-light: #c8f8e4;
   --font-family: 'Noto Sans KR', sans-serif;
 }
