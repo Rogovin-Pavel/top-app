@@ -15,6 +15,7 @@ export const Footer = ({ className, ...props }: FooterProps): JSX.Element => {
       <a href="#" target="_blank">
         Политика конфиденциальности
       </a>
+      test footer
     </footer>
   );
 };
